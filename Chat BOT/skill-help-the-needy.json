@@ -1,0 +1,1892 @@
+{
+  "name": "help the needy",
+  "intents": [
+    {
+      "intent": "my_location",
+      "examples": [
+        {
+          "text": "locate me"
+        },
+        {
+          "text": "my location"
+        },
+        {
+          "text": "where I am located?"
+        },
+        {
+          "text": "where I am ?"
+        },
+        {
+          "text": "where I am"
+        },
+        {
+          "text": "where is me"
+        },
+        {
+          "text": "i am lost"
+        },
+        {
+          "text": "lost"
+        },
+        {
+          "text": "my place"
+        },
+        {
+          "text": "my location please"
+        },
+        {
+          "text": "where my location is"
+        },
+        {
+          "text": "where I may location shows"
+        },
+        {
+          "text": "where is my location"
+        },
+        {
+          "text": "where I am right now"
+        },
+        {
+          "text": "can you tell me where I am"
+        },
+        {
+          "text": "please locate me"
+        },
+        {
+          "text": "my location is where"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I want to speak to a person"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "I don't want to speak with a robot"
+        },
+        {
+          "text": "I dont want to talk to a computer"
+        },
+        {
+          "text": "get me a person"
+        },
+        {
+          "text": "call the manager"
+        },
+        {
+          "text": "I want to speak to a human"
+        },
+        {
+          "text": "I want to talk to the manager"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "talk to a human"
+        },
+        {
+          "text": "call me"
+        },
+        {
+          "text": "Where is the closest rescue point?"
+        },
+        {
+          "text": "i need help urgently"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "how do i get to helping authority"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "can you assist me"
+        },
+        {
+          "text": "can you help"
+        },
+        {
+          "text": "i need assistance"
+        },
+        {
+          "text": "help me"
+        }
+      ],
+      "description": "Ask for help"
+    },
+    {
+      "intent": "Safe_Location",
+      "examples": [
+        {
+          "text": "how do i get to your place"
+        },
+        {
+          "text": "what is my address"
+        },
+        {
+          "text": "Where I am located?"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "can you give me directions"
+        },
+        {
+          "text": "Go to near by safe zone"
+        },
+        {
+          "text": "how do i find safe zone"
+        },
+        {
+          "text": "I'd like to go to a safe area"
+        },
+        {
+          "text": "I need help with find a safe zone"
+        },
+        {
+          "text": "I want to know about near by safe place"
+        },
+        {
+          "text": "safe location please"
+        },
+        {
+          "text": "Looking for a safe location"
+        },
+        {
+          "text": "What is the closest safe zone to my address?"
+        },
+        {
+          "text": "What is the safe place near my zip code?"
+        },
+        {
+          "text": "Where is safe zone?"
+        },
+        {
+          "text": "What is the nearest safe zone?"
+        },
+        {
+          "text": "Find safe place"
+        },
+        {
+          "text": "give me direction to be safe"
+        },
+        {
+          "text": "I need help with find a rescue place"
+        },
+        {
+          "text": "rescue place"
+        }
+      ],
+      "description": "location or an address."
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "thnx"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "i appreciate it"
+        }
+      ],
+      "description": "Thanks"
+    },
+    {
+      "intent": "disease",
+      "examples": [
+        {
+          "text": "i am feeling bad"
+        },
+        {
+          "text": "felling bad"
+        },
+        {
+          "text": "not good now"
+        },
+        {
+          "text": "not well"
+        },
+        {
+          "text": "i am upset"
+        },
+        {
+          "text": "not well and good"
+        },
+        {
+          "text": "not feeling good"
+        },
+        {
+          "text": "I am not well"
+        },
+        {
+          "text": "not feeling good now"
+        },
+        {
+          "text": "not good"
+        },
+        {
+          "text": "upset"
+        },
+        {
+          "text": "i am not good"
+        },
+        {
+          "text": "feeling not good"
+        },
+        {
+          "text": "i am not feeling nice"
+        },
+        {
+          "text": "it's paining"
+        },
+        {
+          "text": "i am not feeling good"
+        },
+        {
+          "text": "i am not feeling well"
+        },
+        {
+          "text": "i am not fine"
+        },
+        {
+          "text": "i am not good right now"
+        },
+        {
+          "text": "not that good"
+        },
+        {
+          "text": "pain"
+        },
+        {
+          "text": "feeling something unusual"
+        },
+        {
+          "text": "right now i am not good"
+        },
+        {
+          "text": "right now I am not enough good"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "so long"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "bye"
+        }
+      ],
+      "description": "Good byes"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "feeling",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Not well",
+          "synonyms": [
+            "not good",
+            "not fine",
+            "bad",
+            "lousy",
+            "wrong",
+            "hurt",
+            "badly",
+            "severely",
+            "pathetic",
+            "miserable",
+            "hurting",
+            "injure",
+            "harmed",
+            "hurts",
+            "worse",
+            "severly",
+            "harm",
+            "mediocre"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good",
+          "synonyms": [
+            "nice",
+            "great",
+            "decent",
+            "well",
+            "excellent",
+            "wonderful",
+            "beautiful",
+            "lovely",
+            "pleasant",
+            "neat",
+            "fantastic",
+            "fabulous",
+            "superb",
+            "amazing",
+            "awesome",
+            "perfect",
+            "marvelous"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "yeah",
+            "yes",
+            "you bet",
+            "you betcha",
+            "yep"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "nope",
+            "not at this time",
+            "not now"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "grand central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dadar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mumbai central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "best safe place near to me",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Airoli",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bandra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Virar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bhayander",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "My_contact",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "97984398983",
+          "synonyms": [
+            "phone"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "A sample simple Customer Service skill",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Is your heart rate increased?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564137124362",
+      "metadata": {},
+      "conditions": "@reply:no",
+      "dialog_node": "node_3_1564137526485",
+      "previous_sibling": "node_4_1564137567327"
+    },
+    {
+      "type": "standard",
+      "title": "Is your heart rate increased?",
+      "output": {},
+      "parent": "node_1_1564137124362",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_4_1564137567327",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1564134609407",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1564134609407",
+      "previous_sibling": "handler_10_1564134609407"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1564134609407",
+      "context": {
+        "reply": ""
+      },
+      "event_name": "input",
+      "dialog_node": "handler_10_1564134609407"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "OK. Let me know how I can help"
+      },
+      "parent": "node_22_1467833484410",
+      "metadata": {},
+      "conditions": "@reply:no",
+      "dialog_node": "node_21_1468350173406",
+      "previous_sibling": "node_19_1468350024009"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "OK. Transferring... [Use IBM Cloud Functions to connect to backend systems]"
+          ]
+        }
+      },
+      "parent": "node_22_1467833484410",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_19_1468350024009"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1564138487412",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1564138487412",
+      "previous_sibling": "handler_17_1564138487412"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_16_1564138487412",
+      "event_name": "input",
+      "dialog_node": "handler_17_1564138487412"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1564137862517",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1564137862517",
+      "previous_sibling": "handler_11_1564137862517"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1564137862517",
+      "event_name": "input",
+      "dialog_node": "handler_11_1564137862517"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Have you notices mosquitoes around you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_26_1564141227317",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_27_1564141283881",
+      "previous_sibling": "node_28_1564141316098"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, someone will come attend to you as soon as possible. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Take care till then "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1564141227317",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Opening"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_28_1564141316098"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1564045864247",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1564045864247",
+      "previous_sibling": "handler_4_1564045864247"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1564045864247",
+      "event_name": "input",
+      "dialog_node": "handler_4_1564045864247"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1564133946150",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_20_1564138555646"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_15_1564138221857",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1564137124362"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_1_1564133946150",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_2_1564134012900",
+      "previous_sibling": "slot_9_1564134609407"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ":I'm glad you are feeling good. Have a nice day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564133946150",
+      "metadata": {},
+      "conditions": "@feeling:Good",
+      "dialog_node": "node_3_1564134012903",
+      "previous_sibling": "node_15_1564138221857"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1564133946150",
+      "metadata": {},
+      "variable": "$reply",
+      "dialog_node": "slot_9_1564134609407",
+      "previous_sibling": "node_13_1564134724719"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry to hear that. Do you have a fever?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564133946150",
+      "metadata": {},
+      "conditions": "@feeling:(Not well)",
+      "dialog_node": "node_13_1564134724719",
+      "previous_sibling": "node_3_1564134012903"
+    },
+    {
+      "type": "standard",
+      "title": "Do you have a fever? / No",
+      "output": {},
+      "parent": "node_1_1564133946150",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1564137567327"
+      },
+      "conditions": "@reply:no",
+      "dialog_node": "node_1_1564137124362",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1564121798508",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_33_1564121798509",
+      "previous_sibling": "handler_32_1564121798509"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1564121798508",
+      "metadata": {},
+      "event_name": "input",
+      "dialog_node": "handler_32_1564121798509"
+    },
+    {
+      "type": "event_handler",
+      "parent": "Opening",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1564045864212",
+      "previous_sibling": "node_2_1564045864214"
+    },
+    {
+      "type": "slot",
+      "parent": "Opening",
+      "dialog_node": "slot_3_1564045864247",
+      "previous_sibling": "handler_1_1564045864212"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I’m a helper care virtual assistant.  I can help with directions to safe zone, calling live helper, giving helpline number etc. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Opening",
+      "context": {
+        "no_reservation": true
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_2_1564045864214"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Have you vomitted or feel nauseaus"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_22_1564138615088",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_25_1564141182521",
+      "previous_sibling": "node_26_1564141227317"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_22_1564138615088",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_28_1564141316098"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_26_1564141227317",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_24_1564054945982",
+      "event_name": "focus",
+      "dialog_node": "handler_26_1564054945982",
+      "previous_sibling": "handler_25_1564054945982"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_24_1564054945982",
+      "event_name": "input",
+      "dialog_node": "handler_25_1564054945982"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you see rashes on your skin?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_20_1564138555646",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_21_1564138592144",
+      "previous_sibling": "node_22_1564138615088"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_20_1564138555646",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_26_1564141227317"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_22_1564138615088",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "slot",
+      "parent": "node_15_1564138221857",
+      "dialog_node": "slot_16_1564138487412",
+      "previous_sibling": "node_19_1564138525043"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have a headache or feel pain in the back/abdomen?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_15_1564138221857",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_19_1564138525043",
+      "previous_sibling": "node_20_1564138555646"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_15_1564138221857",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_22_1564138615088"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_20_1564138555646",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "safezone",
+      "output": {},
+      "parent": "Directions",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@landmark",
+      "dialog_node": "node_1_1563437080331",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1564137774112",
+      "dialog_node": "slot_10_1564137862517",
+      "previous_sibling": "handler_13_1564137881265"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_7_1564137774112",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1564137881265",
+      "previous_sibling": "node_23_1564140048535"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1564137774112",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_23_1564140048535",
+      "previous_sibling": "node_8_1564137782356"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, someone will come attend to you as soon as possible. Drink as much water as possible."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1564137774112",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_8_1564137782356"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have loose motions?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_29_1564141642740",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_30_1564141667181",
+      "previous_sibling": "node_7_1564137774112"
+    },
+    {
+      "type": "standard",
+      "title": "Do you have loose motions? / Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, someone will come attend to you as soon as possible. Drink as much water as possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Take care till then "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1564141642740",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Opening"
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_7_1564137774112",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome. Just let me know if you need anything else",
+            "No problem. Just let me know if you need anything else",
+            "My pleasure. Just let me know if you need anything else"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1516824993307",
+      "metadata": {},
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1468243505617",
+      "previous_sibling": "node_12_1468329566917"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "So long",
+            "See ya",
+            "Good bye"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1516824993307",
+      "metadata": {},
+      "conditions": "#Goodbye",
+      "dialog_node": "node_12_1468329566917",
+      "previous_sibling": "node_13_1502484041694"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1516824993307",
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_13_1502484041694"
+    },
+    {
+      "type": "standard",
+      "title": "How are you feeling?",
+      "output": {},
+      "parent": "node_1_1563521548072",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1564137124362"
+      },
+      "conditions": "@feeling",
+      "dialog_node": "node_1_1564133946150",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Are you feeling so tired or so restless that you cannot stand?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1564137567327",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_5_1564137613252",
+      "previous_sibling": "node_29_1564141642740"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_4_1564137567327",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_29_1564141642740",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Mira road"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "conditions": "@landmark:Bhayander",
+      "dialog_node": "node_29_1564055213575",
+      "previous_sibling": "node_28_1564055138832"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Khar"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "conditions": "@landmark:Bandra",
+      "dialog_node": "node_27_1564055136632",
+      "previous_sibling": "node_8_1564048450576"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Bandra"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "conditions": "@landmark:Dadar",
+      "dialog_node": "node_7_1564048412890",
+      "previous_sibling": "handler_10_1564054170896"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_10_1564054170896",
+      "previous_sibling": "slot_24_1564054945982"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1563437080331",
+      "dialog_node": "slot_24_1564054945982",
+      "previous_sibling": "node_6_1564048382393"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Churchgate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "conditions": "@landmark:(Mumbai central)",
+      "dialog_node": "node_8_1564048450576",
+      "previous_sibling": "node_7_1564048412890"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Vasai"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "conditions": "@landmark:Virar",
+      "dialog_node": "node_28_1564055138832",
+      "previous_sibling": "node_27_1564055136632"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Thane"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1563437080331",
+      "metadata": {},
+      "conditions": "@landmark:Airoli",
+      "dialog_node": "node_6_1564048382393"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good afternoon",
+            "Hi there. It's a beautiful afternoon",
+            "Good afternoon. How can I help?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "node_1_1495022305143",
+      "previous_sibling": "node_16_1488295517679"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good evening",
+            "Hi. Good evening",
+            "Hello. How can I help this evening?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "node_15_1488295465298",
+      "previous_sibling": "node_1_1495022305143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello",
+            "Hi there",
+            "Hi. How can I help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "dialog_node": "node_28_1522448362216",
+      "previous_sibling": "node_15_1488295465298"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good morning",
+            "It's a beautiful morning. Hello",
+            "Hi there. How can I help you this morning?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('04:00:00') && now().before('11:59:59')",
+      "dialog_node": "node_16_1488295517679"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Churchgate"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "conditions": "@landmark:(Mumbai central)",
+      "dialog_node": "node_37_1564121798509",
+      "previous_sibling": "node_36_1564121798509"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_34_1564121798509",
+      "previous_sibling": "slot_31_1564121798508"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Khar"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "conditions": "@landmark:Bandra",
+      "dialog_node": "node_38_1564121798509",
+      "previous_sibling": "node_37_1564121798509"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "dialog_node": "slot_31_1564121798508",
+      "previous_sibling": "node_35_1564121798509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Mira road"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "conditions": "@landmark:Bhayander",
+      "dialog_node": "node_40_1564121798509",
+      "previous_sibling": "node_39_1564121798509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Vasai"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "conditions": "@landmark:Virar",
+      "dialog_node": "node_39_1564121798509",
+      "previous_sibling": "node_38_1564121798509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Bandra"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "conditions": "@landmark:Dadar",
+      "dialog_node": "node_36_1564121798509",
+      "previous_sibling": "handler_34_1564121798509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "your safe location is Thane"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_30_1564121797591",
+      "metadata": {},
+      "conditions": "@landmark:Airoli",
+      "dialog_node": "node_35_1564121798509"
+    },
+    {
+      "type": "standard",
+      "title": "Help me",
+      "output": {
+        "text": {
+          "values": [
+            "Please call us on 1800 1800 23"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Help",
+      "dialog_node": "node_1_1563443727373",
+      "previous_sibling": "node_22_1467833484410"
+    },
+    {
+      "type": "folder",
+      "title": "Small Talk",
+      "metadata": {},
+      "digress_in": "not_available",
+      "dialog_node": "node_1_1516824993307",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "standard",
+      "title": "Direct Location",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@landmark",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_30_1564121797591",
+      "previous_sibling": "Directions"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer to agent",
+      "output": {
+        "generic": [
+          {
+            "title": "Please wait while we are connecting to an Agent",
+            "options": [
+              {
+                "label": "",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_22_1467833484410",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_16_1563436215219"
+    },
+    {
+      "type": "standard",
+      "title": "Directions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait getting your Current location"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "title": "your current location is",
+            "options": [
+              {
+                "label": "Airoli",
+                "value": {
+                  "input": {
+                    "text": "Airoli"
+                  }
+                }
+              },
+              {
+                "label": "Dadar",
+                "value": {
+                  "input": {
+                    "text": "Dadar"
+                  }
+                }
+              },
+              {
+                "label": "Mumbai Central",
+                "value": {
+                  "input": {
+                    "text": "(Mumbai central)"
+                  }
+                }
+              },
+              {
+                "label": "Bandra",
+                "value": {
+                  "input": {
+                    "text": "Bandra"
+                  }
+                }
+              },
+              {
+                "label": "Virar",
+                "value": {
+                  "input": {
+                    "text": "Virar"
+                  }
+                }
+              },
+              {
+                "label": "Bhayander",
+                "value": {
+                  "input": {
+                    "text": "Bhayander"
+                  }
+                }
+              },
+              {
+                "label": "Borivali",
+                "value": {
+                  "input": {
+                    "text": "Borivali"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1563437080331"
+      },
+      "conditions": "#Safe_Location",
+      "digress_in": "returns",
+      "dialog_node": "Directions",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1516824993307"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand can you try again"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1467831978407",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1563521548072"
+    },
+    {
+      "type": "standard",
+      "title": "My location",
+      "output": {
+        "text": {
+          "values": [
+            "Your location is Airoli"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#my_location",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_16_1563436215219",
+      "previous_sibling": "node_30_1564121797591"
+    },
+    {
+      "type": "standard",
+      "title": "Ask_Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are here to help you with any assistance that you might need. Please provide answers to the questions below to understand your symptoms (Yes/No)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "How are you feeling?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1564133946150"
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_1_1563521548072",
+      "previous_sibling": "node_1_1563443727373"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else we can do for you eg location, Safe zone, Live assistant, Not well help etc"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "Opening",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "fa2db693-c2ba-4999-b781-d6c8b2882539",
+  "counterexamples": [],
+  "system_settings": {
+    "system_entities": {
+      "enabled": false
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
