@@ -1,0 +1,654 @@
+{
+  "name": "VoiceGatewayConversation",
+  "intents": [
+    {
+      "intent": "affirmation",
+      "examples": [
+        {
+          "text": "k"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "ok.."
+        },
+        {
+          "text": "k.."
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "all right"
+        },
+        {
+          "text": "I am here"
+        },
+        {
+          "text": "i understand"
+        },
+        {
+          "text": "Thanks"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "userinput",
+      "examples": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "in-danger",
+      "examples": [
+        {
+          "text": "true"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "endthecall",
+      "examples": [
+        {
+          "text": "I gotta go"
+        },
+        {
+          "text": "I am in a rush"
+        },
+        {
+          "text": "I'll hang up"
+        },
+        {
+          "text": "I will hang up"
+        },
+        {
+          "text": "At this point, I have nothing else to ask"
+        },
+        {
+          "text": "I have nothing else to ask"
+        },
+        {
+          "text": "Thank you, I have no other questions"
+        },
+        {
+          "text": "Thanks, I have no other questions"
+        },
+        {
+          "text": "Please disconnect"
+        },
+        {
+          "text": "Disconnect"
+        },
+        {
+          "text": "I do not need you anymore"
+        },
+        {
+          "text": "The call is over"
+        },
+        {
+          "text": "I'd like to end our call"
+        },
+        {
+          "text": "I'd like to end this call"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Goodbye!"
+        },
+        {
+          "text": "End the call"
+        },
+        {
+          "text": "I'd like to hang up"
+        },
+        {
+          "text": "End call"
+        },
+        {
+          "text": "So long"
+        },
+        {
+          "text": "Ciao"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Hang up"
+        },
+        {
+          "text": "Good bye"
+        },
+        {
+          "text": "End this call pleasel"
+        },
+        {
+          "text": "not useful at all"
+        },
+        {
+          "text": "i am hating thiis"
+        },
+        {
+          "text": "hate it"
+        },
+        {
+          "text": "You have not been useful"
+        },
+        {
+          "text": "I'm gone"
+        },
+        {
+          "text": "I am gone"
+        },
+        {
+          "text": "You are not worth taking to"
+        },
+        {
+          "text": "You are an idiot"
+        },
+        {
+          "text": "Talk to you later"
+        },
+        {
+          "text": "I need to go now"
+        }
+      ]
+    },
+    {
+      "intent": "check-status",
+      "examples": [
+        {
+          "text": "How are you doing today?"
+        },
+        {
+          "text": "Are you feeling any discomfort?"
+        },
+        {
+          "text": "Hope all is fine,  is it?"
+        },
+        {
+          "text": "How are you feeling?"
+        },
+        {
+          "text": "Are you ok?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "VoiceGateway",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cognitive Gateway",
+          "synonyms": [
+            "You",
+            "Watson Voice Gateway",
+            "Voice Gateway for Watson",
+            "Voice Gateway",
+            "IBM voice gateway",
+            "Gateway",
+            "Cognitive Voice Gateway",
+            "Cognitive Gateway"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "usecasenames",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "both",
+          "synonyms": [
+            "self service and agent assist",
+            "both of them",
+            "both",
+            "all of them",
+            "agent assist and self service"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "selfservice",
+          "synonyms": [
+            "IVR replacement",
+            "self service",
+            "automatic self service"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "agentassist",
+          "synonyms": [
+            "assistant",
+            "assist",
+            "agent assistant",
+            "agent enhancement",
+            "agent assist"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "callsandusers",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "calls",
+          "synonyms": [
+            "conversations",
+            "callers",
+            "users"
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    },
+    "runtime_version": "2016-09-20"
+  },
+  "description": "This Conversation provides answers to questions about the Voice Gateway for Watson.",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Is your heart rate increased?Press 1 for yes else press 2."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1564382956776",
+      "metadata": {},
+      "conditions": "@reply:2",
+      "dialog_node": "node_10_1564383064522",
+      "previous_sibling": "node_9_1564382970251"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have a headache or feel pain in the back/abdomen? Press 1 for yes else press 2."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1564382956776",
+      "metadata": {},
+      "conditions": "@reply:1",
+      "dialog_node": "node_9_1564382970251",
+      "previous_sibling": "node_1_1564383509526"
+    },
+    {
+      "type": "standard",
+      "title": "details-2",
+      "output": {},
+      "parent": "node_8_1564382956776",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#userinput",
+      "dialog_node": "node_1_1564383509526",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have loose motions?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1564384704783",
+      "metadata": {},
+      "conditions": "@reply:1",
+      "dialog_node": "node_5_1564384719396",
+      "previous_sibling": "node_6_1564384961030"
+    },
+    {
+      "type": "standard",
+      "title": "details-4",
+      "output": {},
+      "parent": "node_4_1564384704783",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#userinput",
+      "dialog_node": "node_6_1564384961030",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I'm glad you are feeling good. Have a nice day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1564381997831",
+      "metadata": {},
+      "conditions": "@reply:1",
+      "dialog_node": "node_6_1564382874979",
+      "previous_sibling": "node_8_1564382956776"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry to hear that. Do you have a fever?  Press 1 for yes else press 2."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1564381997831",
+      "metadata": {},
+      "conditions": "@reply:2",
+      "dialog_node": "node_7_1564382883604",
+      "previous_sibling": "node_6_1564382874979"
+    },
+    {
+      "type": "standard",
+      "title": "details 1",
+      "output": {},
+      "parent": "node_2_1564381997831",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#userinput",
+      "dialog_node": "node_8_1564382956776",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have loose motions?Press 1 for yes else press 2."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1564384961030",
+      "metadata": {},
+      "conditions": "@reply:1",
+      "dialog_node": "node_7_1564385007445",
+      "previous_sibling": "node_8_1564385273582"
+    },
+    {
+      "type": "standard",
+      "title": "end-conv1",
+      "output": {
+        "text": {
+          "values": [
+            "Ok, someone will come attend to you as soon as possible. Drink as much water as possible."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1564384961030",
+      "metadata": {},
+      "conditions": "#userinput",
+      "dialog_node": "node_8_1564385273582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Do you see rashes on your skin?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564383509526",
+      "metadata": {},
+      "conditions": "@reply:1",
+      "dialog_node": "node_9_1564385965703",
+      "previous_sibling": "node_2_1564383524277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Are you feeling so tired or so restless that you cannot stand?Press 1 for yes else press 2."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564383509526",
+      "metadata": {},
+      "conditions": "@reply:2",
+      "dialog_node": "node_2_1564383524277",
+      "previous_sibling": "node_4_1564384704783"
+    },
+    {
+      "type": "standard",
+      "title": "details-3",
+      "output": {},
+      "parent": "node_1_1564383509526",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#userinput",
+      "dialog_node": "node_4_1564384704783",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ": I'm glad you are feeling good. Have a nice day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564381845006",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@reply:1",
+      "dialog_node": "node_4_1564382666289",
+      "previous_sibling": "node_2_1564381997831"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry to hear that. Do you have a fever?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1564381845006",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@reply:2",
+      "dialog_node": "node_5_1564382695747",
+      "previous_sibling": "node_4_1564382666289"
+    },
+    {
+      "type": "standard",
+      "title": "health-check",
+      "output": {},
+      "parent": "node_1_1564381845006",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#userinput",
+      "dialog_node": "node_2_1564381997831",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "emergency",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you need immediate assistance on a scale of 1 to 5?",
+            "options": [
+              {
+                "label": "One",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Two",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Three",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "Four",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "Five",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#in-danger",
+      "dialog_node": "node_2_1564378287757",
+      "previous_sibling": "node_1_1564381845006"
+    },
+    {
+      "type": "standard",
+      "title": "Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. I am here to help you with any assistance that you might need. Please provide answers to the questions asked."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "How are you feeling?? Press 1 for good else press 2."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1564381997831"
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1564381845006",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "8e989c82-14fd-4d58-9f20-b8ae1e8aff8b",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
