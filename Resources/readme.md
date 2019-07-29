@@ -18,8 +18,9 @@ Android Application:
 3) https://github.com/GriddleGriddle/Griddle
 
 Registeration:
-1) 
-2)
+1) https://startbootstrap.com/themes/freelancer/
+2) https://www.studentstutorial.com/demo/java/java-login
+3) https://www.javatpoint.com/sendRedirect()-method 
 
 Structure Stability:
 1) https://deepnotes.io/implementing-cnn  
