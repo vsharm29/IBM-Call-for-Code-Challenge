@@ -14,10 +14,6 @@ The Call for Code 2019 Global Challenge is a worldwide developer competition tha
   5) Vivek Sharma
  
  
- Video demo : https://youtu.be/r8YfwXa4eQE
+ * Video demo: https://youtu.be/r8YfwXa4eQE
  
- references : [Link](https://github.com/vsharm29/IBM-Call-for-Code-Challenge/tree/master/Resources)
-
- 
- 
-
+ * References: [Link](https://github.com/vsharm29/IBM-Call-for-Code-Challenge/tree/master/Resources)
